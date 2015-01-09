@@ -1,6 +1,6 @@
 require('sinatra')
-require('sinatra-contrib')
+require('sinatra/reloader')
 
 get('/') do
-  erb(:index)
+  erb(:video_html5_example)
 end
